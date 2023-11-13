@@ -32,7 +32,7 @@ jobs:
           azure-subscription: ${{ env.AZURE_SUBSCRIPTION }}
           action: deploy
           service-name: 'enterprise-spring-apps'
-          app-name: 'simple-ms'
+          app-name: 'simple-rest'
           create-new-deployment: true
           deployment-name: 'green'
           use-staging-deployment: true
