@@ -34,7 +34,7 @@ jobs:
           service-name: 'enterprise-spring-apps'
           app-name: 'simple-rest'
           create-new-deployment: true
-          deployment-name: 'okuppurajah'
+          deployment-name: 'green'
           use-staging-deployment: true
           package: ${{ env.ASC_PACKAGE_PATH }}/**/*.jar
           builder: 'default'
